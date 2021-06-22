@@ -1,0 +1,36 @@
+import datetime
+
+
+SAMPLE_DIAGNOSTICS = {
+    'ecc_detected': True,
+    'eth0_mac_address': '40:C6:BC:3D:5B:2B',
+    'wlan0_mac_address': 'A8:75:38:F2:85:41',
+    'balena_name': 'funky-pigeon',
+    'balena_id': 'c15679aa-9044-41e4-b41a-1974929b9a10',
+    'balena_application_name': 'nebra-hotspot',
+    'hw_frequency': '868',
+    'firmware_version': '1.2.2',
+    'hardware_variant': '1.0.1',
+    'rpi_serial': '000000000000000000000',
+    'bluetooth_detected': True,
+    'lte_detected': False,
+    'lora_fault': False,
+    'public_key': 'pubkey',
+    'onboarding_key': 'obkey',
+    'animal_name': 'fluffy-tasty-penguin',
+    'miner_connected': True,
+    'miner_dialable': True,
+    'block_height': 18765,
+    'nat_type': 'symmetric',
+    'region': 'EU_868',
+    'diagnostics_ok': True,
+    'friendly_name': 'Fluffy Tasty Penguin',
+    'btle_app_name': 'Nebra Hotspot',
+    'lora_spi_bus': 0,
+    'lora_reset_pin': 12,
+    'primary_mac_address': '40:C6:BC:3D:5B:2B',
+    'button_pressed': False,
+    'ecc_onboard': True,
+    'type': 'full',
+    'last_updated': datetime.datetime.utcnow().isoformat()
+}
